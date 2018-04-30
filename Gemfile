@@ -36,15 +36,27 @@ gem "font-awesome-rails"
 
 gem 'faker',          '1.7.3'
 
+<<<<<<< HEAD
+=======
+gem 'ransack', '~> 1.8', '>= 1.8.8'
+
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 
 
 gem 'carrierwave', '~> 1.2', '>= 1.2.2'
 gem 'mini_magick', '~> 4.8'
+<<<<<<< HEAD
 gem 'unf', '~> 0.1.4'
 gem 'fog-core', '~> 2.1'
 
+=======
+
+group :production do
+  gem 'fog', '1.42'
+end
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

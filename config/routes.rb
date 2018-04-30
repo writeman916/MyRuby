@@ -29,6 +29,13 @@ Rails.application.routes.draw do
       get :following, :followers
     end
   end
+<<<<<<< HEAD
+=======
+
+
+  get "search(/:search)", to: "searches#index", as: :search
+  
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
   resources :users
   resources :microposts,          only: [:create, :destroy]
   resources :relationships,       only: [:create, :destroy]

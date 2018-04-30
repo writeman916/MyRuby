@@ -20,11 +20,42 @@ class UsersController < ApplicationController
   end
 
 
+<<<<<<< HEAD
   def home
   end
   
   def index
     @users = User.paginate(page: params[:page], :per_page => 5)
+=======
+  def search
+    q = params[:search]
+    if q
+      users = User.search(name_or_email_cont: q).result
+    else
+       @users = User.paginate(page: params[:page], :per_page => 5)
+    end
+    respond_to do |format|
+      format.js
+      format.html
+    end
+  end
+
+
+  def index
+
+
+    q = params[:search]
+    if q
+      @users = User.where(["name LIKE ?","%#{params[:search]}%"]).result
+    else
+       @users = User.paginate(page: params[:page], :per_page => 5)
+    end
+    respond_to do |format|
+      format.js
+      format.html
+    end
+
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
   end
 
   # GET /users/1

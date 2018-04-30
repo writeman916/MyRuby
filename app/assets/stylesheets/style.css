@@ -76,24 +76,42 @@ span {
 
   padding: 15px 15px 15px 15px;
 }
+<<<<<<< HEAD
 .user-infor{
+=======
+.wrapper .user-infor{
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 
   -moz-box-shadow: 0px 0px 6px rgba(0, 0, 0, 10);
 
   -webkit-box-shadow: 0px 5px 7px rgba(46, 31, 31, 0.22);
 
+<<<<<<< HEAD
 
   
 
   background-color:  #FFFFFF;
 
   padding: 10px 10px 5px 10px;
+=======
+  margin-right: 30px;
+
+  margin:  30px;
+
+  background-color:  #FFFFFF;
+
+  padding: 15px 15px 15px 15px;
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 }
 .img-circle{
   width:100%;
 }
+<<<<<<< HEAD
 .user-infor .img-circle{
+=======
+.wrapper .user-infor .img-circle{
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 
 
 display: block;
@@ -102,6 +120,7 @@ margin-left: auto;
 
 margin-right: auto;
 }
+<<<<<<< HEAD
 .user-infor #user-name{}
 
 .user-infor #user-name h4{
@@ -109,6 +128,15 @@ margin-right: auto;
 }
 
 .user-infor img{
+=======
+.wrapper .user-infor #user-name{}
+
+.wrapper  .user-infor #user-name h4{
+    text-align:  center;
+}
+
+.wrapper .user-infor img{
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 
 width:  50px;
 }

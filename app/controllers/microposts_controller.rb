@@ -35,4 +35,8 @@ def logged_in_user
     redirect_to login_url
   end
 end
+<<<<<<< HEAD
 end
+=======
+end 
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d

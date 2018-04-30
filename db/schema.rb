@@ -10,6 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 20180430084631) do
 
   create_table "lessons", force: :cascade do |t|
@@ -17,6 +18,9 @@ ActiveRecord::Schema.define(version: 20180430084631) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
+=======
+ActiveRecord::Schema.define(version: 20180427145704) do
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
 
   create_table "microposts", force: :cascade do |t|
     t.text "content"
@@ -44,6 +48,7 @@ ActiveRecord::Schema.define(version: 20180430084631) do
     t.string "password_digest"
     t.string "remember_digest"
     t.boolean "admin", default: false
+<<<<<<< HEAD
     t.integer "score"
   end
 
@@ -59,6 +64,8 @@ ActiveRecord::Schema.define(version: 20180430084631) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["lesson_id"], name: "index_words_on_lesson_id"
+=======
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
   end
 
 end

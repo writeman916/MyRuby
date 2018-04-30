@@ -40,6 +40,7 @@ following = users[2..50]
 followers = users[3..40]
 following.each { |followed| user.follow(followed) }
 followers.each { |follower| follower.follow(user) }
+<<<<<<< HEAD
 end
 
 
@@ -52,3 +53,6 @@ Word.create(word: 'Train', mean1: 'đi', mean2: 'di chuyển', mean3: 'con voi',
 # Vocabulary.create(word: 'Cat', mean1: 'con mèo', mean2: 'con chó', mean3: 'bút bi', mean4:'cái bàn', mean: 'con mèo', group_id: 1)
 Lesson.create(id: 1, name: "Động vật")
 Lesson.create(id: 2, name: "Du lịch")
+=======
+end
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d

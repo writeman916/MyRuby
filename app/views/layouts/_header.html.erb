@@ -1,6 +1,35 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
     <%= link_to "sample app", root_path, id: "logo" %>
+<<<<<<< HEAD
+=======
+
+
+
+
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="col-md-8">
+      <%= form_tag search_path, method: :get,
+        class: "navbar-form search-form", id: "livesearch_form" do %>
+        <div class="form-group dropdown">
+          <%= text_field_tag :search, params[:search],class: "form-control dropdown-toggle",placeholder: "Search...","data-toggle": "dropdown", "aria-hidden": :true,
+            autocomplete: :off, required: true, id: "livesearch_input" %>
+          <ul class="dropdown-menu">
+            <div id="livesearch_dom"></div>
+          </ul>
+        </div>
+        <%= button_tag type: :submit, class: "btn btn-default" do %>
+          <i class="fa fa-search"></i>
+        <% end %>
+      <% end %>
+    </div><!-- /.navbar-collapse -->
+
+
+
+
+
+>>>>>>> 04333373e84046df3c81b8c0c6af9e7534cf292d
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
